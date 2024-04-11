@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky"
+    "seed:books": "node ./seeds/book.seed.js",
+    "prepare": "husky",
+    "lint": "eslint",
+    "start": "node --watch index.js"
   },
   "repository": {
     "type": "git",
